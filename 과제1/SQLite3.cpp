@@ -74,6 +74,9 @@ int main() {
 
         double koreanaverageScore = static_cast<double>(koreantotalScore) / studentStatsList.size();
         double englishaverageScore = static_cast<double>(englishtotalScore) / studentStatsList.size();
+        cout << endl;
+        cout << "과목별 총점 및 평균" << endl;
+        cout << "-------------------------" << endl;
         cout << "국어 총점: " << koreantotalScore << endl;
         cout << "국어 평균: " << koreanaverageScore << endl;
         cout << "-------------------------" << endl;
